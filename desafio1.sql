@@ -26,11 +26,11 @@ CREATE TABLE usuario(
 
 INSERT INTO usuario(nome, idade, plano_id)
 VALUES ('Thati', 23, 1),
-       ('Cíntia', 35, 4),
+       ('Cintia', 35, 4),
        ('Bill', 20, 2),
        ('Roger', 45, 3),
        ('Norman', 58, 3),
-       ('Partick', 33, 4),
+       ('Patrick', 33, 4),
        ('Vivian', 26, 2),
        ('Carol', 19, 2),
        ('Angelina', 42, 4),
