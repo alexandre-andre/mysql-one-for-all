@@ -336,7 +336,7 @@ describe('Queries de seleção', () => {
     });
   });
 
-  describe('10 - Exibe o nome e a quantidade de vezes que cada canção foi tocada por pessoas usuárias do plano gratuito ou pessoal', () => {
+  describe.only('10 - Exibe o nome e a quantidade de vezes que cada canção foi tocada por pessoas usuárias do plano gratuito ou pessoal', () => {
     it('Verifica o desafio 10', async () => {
       const challengeQuery = readFileSync('desafio10.sql', 'utf8');
 
