@@ -59,18 +59,17 @@ VALUES (1, 1, '2019-10-20'),
 
 CREATE TABLE artista(
   id SMALLINT NOT NULL AUTO_INCREMENT,
-  nome VARCHAR(30) NOT NULL,
-  sobrenome VARCHAR(30) NOT NULL DEFAULT '',
+  nome VARCHAR(50) NOT NULL,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 
-INSERT INTO artista(nome, sobrenome)
-VALUES ('Walter', 'Phoenix'),
-       ('Peter', 'Strong'),
-       ('Lance', 'Day'),
-       ('Freedie', 'Shannon'),
-       ('Tyler', 'Isle'),
-       ('Fog', '');
+INSERT INTO artista(nome)
+VALUES ('Walter Phoenix'),
+       ('Peter Strong'),
+       ('Lance Day'),
+       ('Freedie Shannon'),
+       ('Tyler Isle'),
+       ('Fog');
 
 CREATE TABLE album(
   id SMALLINT NOT NULL AUTO_INCREMENT,
@@ -89,7 +88,7 @@ VALUES ('Envious', 1990, 1),
        ('Temporary Culture', 2001, 4),
        ('Library of liberty', 2003, 4),
        ('Chained Down', 2007, 5),
-       ('Cabinet of foods', 2012, 5),
+       ('Cabinet of fools', 2012, 5),
        ('No guarantees', 2015, 5),
        ('Apparatus', 2015, 6);
 
