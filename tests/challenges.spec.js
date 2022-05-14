@@ -360,7 +360,7 @@ describe('Queries de seleção', () => {
     });
   });
 
-  describe('11 - Exibe nomes de musicas em sua forma normal e com string trocada', () => {
+  describe.only('11 - Exibe nomes de musicas em sua forma normal e com string trocada', () => {
     it('Verifica o desafio 11', async () => {
       const challengeQuery = readFileSync('desafio11.sql', 'utf8');
 
